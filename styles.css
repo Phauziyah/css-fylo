@@ -105,12 +105,10 @@ header{
   display: flex;
 }
 .overall-quote{
-  width:500px;
+  width:400px;
   height: 300px;
+  background-color: hsl(240, 75%, 98%);
   border: 1px solid black;
-}
-.overall-quote{
-  background-color: #fff;
 }
 .arrow-container{
   border-bottom: underline;
@@ -146,6 +144,9 @@ header{
   padding:70px 20px;
   
 }
+footer,i {
+  margin-right: 20px;
+}
 footer ul li{
   list-style:none;
 }
@@ -173,6 +174,61 @@ footer ul li{
   h1.header_text {
     font-size: 30px;
     line-height: 40px;
+}
+.header-paragraph {
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+}
+.input-hero {
+  width: 80%;
+  padding: 10px;
+}
+.btn-get-started{
+  width: 80%;
+}
+.second-hero-section { 
+  flex-direction: column-reverse;
+  background-color:hsl(240, 75%, 98%);
+  background: url("images/bg-curve-mobile.svg");
+  background-repeat:no-repeat;
+  padding-top: 50px;
+}
+h3{
+font-size: 20px;
+text-align: center;
+}
+.arrow-container{
+  width: 5%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.overall-quote{
+  margin-bottom: 50px;
+}
+.third-hero-section{
+  flex-direction: column;
+  padding: 10px;
+}
+.input-hero{
+  border: none;
+}
+.btn-free{
+  color: #fff;
+  width: 80%;
+}
+.footer{
+  flex-direction: column;
+}
+.logo-footer{
+  margin-bottom: 40px;
+}
+footer,i {
+  margin-right: 10px;
+}
+.footer-down{
+  padding-top: 10px;
+  text-align:start;
 }
 }
  
